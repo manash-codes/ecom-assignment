@@ -1,0 +1,101 @@
+@import url("./typography.css");
+@import url("./element.css");
+@import url("../assets/font/style.css");
+@import url("./pages/product-details.css");
+
+:root {
+  --color-white: #fff;
+  --color-black: #000000;
+  --color-offwhite: #f3f3f5;
+
+  --text-color: #0a0a0a;
+  --text-color-contrast: #fff;
+
+  --background-color: #fff;
+  --background-color-contrast: #0a0a0a;
+
+  --font-size: 16px;
+  --border-radius: 8px;
+
+  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  --breakpoint-xs: 575px;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --breakpoint-xxl: 1400px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+/* @media (max-width: 575px) {
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+} */
+
+@media (min-width: 992px) {
+  .container {
+    width: 1180px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1100px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 1300px;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+.section {
+  padding: 10px 20px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section > .bg-offwhite {
+  background: #f3f3f5;
+  background-clip: border-box;
+}
+
+.icon {
+  width: 16px;
+}
+
+.hr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.vr {
+  padding: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.flex-justify-items-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
