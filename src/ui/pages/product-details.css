@@ -240,6 +240,11 @@
   outline-offset: 1px;
 }
 
+.sidebar-photos .sidebar-photo:hover {
+  scale: 1.04;
+  transition: all 0.3s ease-in-out;
+}
+
 .main-photo-wrapper {
   order: 0;
 }
