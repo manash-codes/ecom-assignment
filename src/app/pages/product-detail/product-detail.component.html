@@ -7,7 +7,7 @@
                 <img class="sidebar-photo" src="../../../assets/product/p1.jpg" alt="product 1">
                 <img class="sidebar-photo" src="../../../assets/product/p2.jpg" alt="product 2">
                 <img class="sidebar-photo" src="../../../assets/product/p3.jpg" alt="product 3">
-                <img class="sidebar-photo" src="../../../assets/product/p4.jpg" alt="product 4">
+                <img class="sidebar-photo active" src="../../../assets/product/p4.jpg" alt="product 4">
                 <div class="sidebar-photo flex-justify-items-center text-center">
                     <p>25+</p>
                 </div>
@@ -28,21 +28,21 @@
                 </div>
                 <div class="link">Compare prices from SEK 17.190 to SEK 22,038 • Investment1inMahilephQnes</div>
                 <div class="button-section">
-                    <button class="button">1 TB</button>
-                    <button class="button active">256 GB</button>
-                    <button class="button">512 GB</button>
+                    <app-button value="1 TB"></app-button>
+                    <app-button class="active" value="256 GB"></app-button>
+                    <app-button value="512 GB"></app-button>
                 </div>
                 <div class="button-section">
-                    <button class="button active">All</button>
-                    <button class="button">Black</button>
-                    <button class="button">White</button>
+                    <app-button class="active" value="All"></app-button>
+                    <app-button value="Black"></app-button>
+                    <app-button value="White"></app-button>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <div class="product-tabs">
-    <div class="container">
+    <div class="container pb-0">
         <div class="tabs-heading">
             <div class="tab active">Prices</div>
             <div class="tab">Reviews</div>
@@ -55,15 +55,13 @@
         <div class="container">
             <div class="filter">
                 <div class="button-section">
-                    <button class="button">
-                        <img class="text-black" src="../../../assets/icons/filter.svg" alt="">
-                    </button>
-                    <button class="button active">Only in stock</button>
-                    <button class="button">Price with shipping</button>
-                    <button class="button">Delivery options</button>
+                    <app-button image="../../../assets/icons/filter.svg"></app-button>
+                    <app-button class="active" value="Only in stock"></app-button>
+                    <app-button value="Price with shipping"></app-button>
+                    <app-button value="Delivery options"></app-button>
                 </div>
                 <div class="button-section">
-                    <button class="button">Recommended</button>
+                    <app-button value="Recommended"></app-button>
                 </div>
             </div>
             <div class="price-list">

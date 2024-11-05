@@ -1,0 +1,4 @@
+<button [class]="'button ' + class" (click)="onClick">
+    <app-image *ngIf="image" [path]="image" />
+    {{value}}
+</button>

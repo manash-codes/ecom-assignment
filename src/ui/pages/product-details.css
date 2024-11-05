@@ -11,6 +11,7 @@
   .sidebar-photos .sidebar-photo {
     width: 55px;
     height: 55px;
+    cursor: pointer;
   }
   .product-details .description-section .heading {
     font-size: 24px;
@@ -83,6 +84,7 @@
   .sidebar-photos .sidebar-photo {
     width: 60px;
     height: 60px;
+    cursor: pointer;
   }
   .product-details .description-section .heading {
     font-size: 24px;
@@ -231,6 +233,11 @@
   border: 1.5px solid rgba(0, 0, 0, 0.2);
   border-radius: 7px;
   margin-bottom: 5px;
+}
+
+.sidebar-photos .sidebar-photo.active {
+  outline: 2px solid black;
+  outline-offset: 1px;
 }
 
 .main-photo-wrapper {
