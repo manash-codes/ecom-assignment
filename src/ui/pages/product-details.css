@@ -283,6 +283,7 @@
 }
 
 .product-tabs .tabs-heading .tab.active {
+  font-weight: 700;
   border-bottom: 2px solid var(--color-black);
 }
 
